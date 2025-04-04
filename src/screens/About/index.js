@@ -1,11 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import styles from "./style";
+import { ScrollView } from 'react-native';
+
 export default function About() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Sobre Mim</Text>
-      <Text>Testando ainda</Text>
-    </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      <View style={styles.textContainer}></View>
+        <Text style={styles.bold}>Sobre Mim</Text>
+      
+    </ScrollView>
   );
 }
