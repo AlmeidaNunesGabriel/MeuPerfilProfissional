@@ -1,5 +1,7 @@
 # Sample Snack app
-Esse app ainda está em produção, só para ser uma demonstração de curriculo para celular e aprender alguns conceitos básicos.
+Esse app ainda está em produção. A ideia é servir como um portfólio para projetos mobile que eu realizar. 
+No momento só tem meu currículo. 
+Utilizei React-Native para faze-lo. 
 
 ## 📱 Preview do App
 
